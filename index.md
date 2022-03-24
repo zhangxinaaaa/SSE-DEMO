@@ -29,9 +29,9 @@
 | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | **target** | <audio src="samples/lpcnet/Chinese/10_target.wav" controls preload></audio> | <audio src="samples/lpcnet/Chinese/03_target.wav" controls preload></audio> | <audio src="samples/lpcnet/English/target_02.wav" controls preload></audio> | <audio src="samples/lpcnet/English/target_18.wav" controls preload></audio> |
 | ---       | ---                                                          | ---                                                          | ---                                                          | ---                                                          |
-| **Lpc-S** | <audio src="samples/lpcnet/Chinese/10_target.wav" controls preload></audio> | <audio src="samples/exp_i/tranche_3/p232_189-3-clean.wav" controls preload></audio> | <audio src="samples/lpcnet/English/LPC_02.wav" controls preload></audio> | <audio src="samples/lpcnet/English/LPC_18.wav" controls preload></audio> |
+| **Lpc-S** | <audio src="samples/lpcnet/Chinese/10_lpc.wav" controls preload></audio> | <audio src="samples/lpcnet/Chinese/03_lpc.wav" controls preload></audio> | <audio src="samples/lpcnet/English/LPC_02.wav" controls preload></audio> | <audio src="samples/lpcnet/English/LPC_18.wav" controls preload></audio> |
 | ---       | ---                                                          | ---                                                          | ---                                                          | ---                                                          |
-| **Lpc-O** | <audio src="samples/lpcnet/Chinese/10_target.wav" controls preload></audio> | <audio src="samples/exp_i/tranche_3/p232_189-5-segan.wav" controls preload></audio> | <audio src="samples/lpcnet/English/MEL_02.wav" controls preload></audio> | <audio src="samples/lpcnet/English/MEL_18.wav" controls preload></audio> |
+| **Lpc-O** | <audio src="samples/lpcnet/Chinese/10_mel.wav" controls preload></audio> | <audio src="samples/lpcnet/Chinese/03_mel.wav" controls preload></audio> | <audio src="samples/lpcnet/English/Mel_02.wav" controls preload></audio> | <audio src="samples/lpcnet/English/Mel_18.wav" controls preload></audio> |
 | ---       | ---                                                          | ---                                                          | ---                                                          | ---                                                          |
                                                          | ---                                                          |
 
@@ -54,7 +54,6 @@
 
 #### 男(rms)到女(slt)转换
 
-#### 
 
 | **Samples**  | **Source**                                                   | **Target**                                                   | **PPG-VC**                                                   |                          **VAE-VC**                          | **TL-VC**                                                    |
 | :----------- | :----------------------------------------------------------- | ------------------------------------------------------------ | :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------- |
@@ -69,4 +68,3 @@
 | **Sample 5** | <audio src="samples/any-to-many/gt/rms/arctic_a0179.wav" controls preload></audio> | <audio src="samples/any-to-many/gt/slt/arctic_a0179.wav" controls preload></audio> | <audio src="samples/any-to-many/ppg-vc/rms-to-slt/clb_arctic_a0179_to_bdl.wav" controls preload></audio> | <audio src="samples/any-to-many/vae-vc/rms-to-slt/clb_arctic_a0179_to_bdl.wav" controls preload></audio> | <audio src="samples/any-to-many/tl-vc/rms-to-slt/clb_arctic_a0179_to_bdl.wav" controls preload></audio> |
 | ---          | ---                                                          |                                                              | ---                                                          |                             ---                              | ---                                                          |
 
-#### 
